@@ -40,6 +40,12 @@ button {
 button:hover {
     background-color: #e6005c;
 }
+
+img {
+    width: 200px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
 </style>
 </head>
 
@@ -47,12 +53,15 @@ button:hover {
 
 <div class="box" id="page1">
     <h1>Will you be my Valentine? 💘</h1>
+    <img src="cat.png" alt="Cute Cat">
+    <br>
     <button onclick="showYes()">Yes 💕</button>
     <button onclick="showOfcourse()">Of course ❤️</button>
 </div>
 
 <div class="box" id="page2" style="display:none;">
     <h1 id="message"></h1>
+    <img src="cat.png" alt="Cute Cat">
 </div>
 
 <script>
@@ -71,3 +80,4 @@ function showOfcourse() {
 
 </body>
 </html>
+
